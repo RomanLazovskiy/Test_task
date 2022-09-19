@@ -39,6 +39,7 @@ jobs:
         run: |
           npm ci
           npm run build
+          
       - name: Checkout repository
         uses: actions/checkout@v3
 
